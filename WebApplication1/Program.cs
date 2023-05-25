@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<PersonContext>( c => c.UseSqlServer("server=.;Initial Catalog=Intero;User Id=sa;Password=11qaz!QAZ");
+builder.Services.AddDbContext<PersonContext>( c => c.UseSqlServer("server=.;Initial Catalog=Intero;User Id=sa;Password=1qaz!QAZ;"));
 
 var app = builder.Build();
 
